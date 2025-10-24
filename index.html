@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow,noimageindex,max-image-preview:none">
+    <meta name="googlebot" content="index,follow,noimageindex">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+    <link rel="canonical" href="https://leoterras.com/">
+    <link rel="alternate" href="https://leoterras.fr/" hreflang="fr">
+    <link rel="alternate" href="https://leoterras.com/" hreflang="en">
+    <title data-i18n="seo.title">Léo TERRAS — Développeur Full Stack</title>
+    <meta name="description"
+          content="Développeur Full Stack à Roanne — Lyon. Je conçois des applications web rapides, accessibles et sécurisées.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leoterras.com/">
+    <meta property="og:title" content="Léo TERRAS — Développeur Full Stack">
+    <meta property="og:description"
+          content="Développeur Full Stack à Roanne — Lyon. Je conçois des applications web rapides, accessibles et sécurisées.">
+    <meta property="og:site_name" content="Léo TERRAS">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:image" content="assets/svgs-full/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Léo TERRAS — Développeur Full Stack">
+    <meta name="twitter:description"
+          content="Développeur Full Stack à Roanne — Lyon. Je conçois des applications web rapides, accessibles et sécurisées.">
+
+    <script type="application/ld+json" id="person-jsonld">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Léo TERRAS",
+            "jobTitle": "Développeur Full Stack",
+            "url": "https://leoterras.com/",
+            "image": "https://leoterras.com/assets/svgs-full/profile.jpg",
+            "sameAs": [
+                "https://github.com/muano231",
+                "https://www.linkedin.com/in/leo-terras/"
+            ]
+        }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="intro-ready">
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Aller au contenu</a>
+
+<div id="scroll-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+     aria-label="Progression du défilement"></div>
+
+<div class="layout">
+    <aside class="sidebar" aria-label="Barre latérale">
+        <button class="sidebar__open" aria-controls="sidebar-panel" aria-expanded="false" aria-label="Ouvrir le menu"><i
+                class="fas fa-bars" aria-hidden="true"></i></button>
+        <div class="sidebar__overlay" hidden></div>
+        <div class="sidebar__panel" id="sidebar-panel" data-trap>
+            <div class="brand">
+                <span class="brand__logo" aria-hidden="true">LT</span>
+                <div class="brand__text">
+                    <p><strong id="brand-name">Léo TERRAS</strong></p>
+                    <p>
+                        <small id="brand-role">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span data-i18n="hero.role">Développeur Full Stack</span>
+                        </small>
+                    </p>
+                </div>
+                <button class="sidebar__close" aria-label="Fermer le menu" aria-controls="sidebar-panel"><i
+                        class="fas fa-times" aria-hidden="true"></i></button>
+            </div>
+            <nav class="nav" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#hero" data-i18n="nav.home" class="active">Accueil</a></li>
+                    <li><a href="#about" data-i18n="nav.about">À propos</a></li>
+                    <li><a href="#experience" data-i18n="nav.experience">Expériences</a></li>
+                    <li><a href="#education" data-i18n="nav.education">Études</a></li>
+                    <li><a href="#skills" data-i18n="nav.skills">Compétences</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar__socials" aria-label="Réseaux sociaux">
+                <a href="https://github.com/muano231" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://gitlab.com/muano231" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+                <a href="https://www.linkedin.com/in/leo-terras/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="sidebar__actions">
+                <button id="lang-toggle" class="ghost" aria-label="Changer de langue"><span class="emoji"
+                                                                                            aria-hidden="true">🌐</span>
+                    <span data-i18n="lang.label">FR • EN</span></button>
+                <button id="theme-toggle" class="ghost" aria-label="Basculer le thème" data-theme-emoji="🌙">🌙</button>
+            </div>
+        </div>
+    </aside>
+
+    <main id="main" tabindex="-1">
+        <button id="back-to-top" aria-label="Retour en haut"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
+
+        <header id="hero" class="section hero" aria-label="En-tête">
+            <div class="hero__bg" aria-hidden="true"></div>
+            <div class="container hero__inner with-photo intro-item">
+                <div class="section-title">
+                    <h2 data-i18n="nav.home">Accueil</h2>
+                </div>
+                <h1 id="hero-title">Léo TERRAS — <span data-i18n="hero.role">Développeur Full Stack</span></h1>
+                <p id="hero-sub" data-i18n="hero.pitch">Je conçois des expériences web rapides et accessibles.</p>
+                <p class="hero__meta"><i class="fas fa-location-dot" aria-hidden="true"></i> <span data-i18n="hero.city">Lyon, France</span></p>
+                <div class="cta">
+                    <a class="btn primary" href="#contact"><span data-i18n="hero.contact">Me contacter</span></a>
+                    <a class="btn" href="assets/metadata/cv.pdf" download><i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="hero.cv">Télécharger le CV</span></a>
+                </div>
+                <figure class="hero__photo" id="hero-photo">
+                    <img src="assets/svgs-full/profile.jpg" alt="Photo de Léo TERRAS" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+                </figure>
+            </div>
+        </header>
+
+        <section id="about" class="section section-grey">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="about.title">À propos de moi</h2>
+                </div>
+
+                <div class="about-content">
+                        <p class="lead" data-i18n="about.intro">
+                            Passionné par le développement web et les technologies innovantes, je transforme des idées
+                            en solutions digitales concrètes et performantes.
+                        </p>
+                        <p data-i18n="about.description">
+                            Avec une expertise en développement full-stack, je maîtrise l'ensemble du cycle de création
+                            d'applications web modernes. Mon approche combine créativité technique et souci du détail
+                            pour livrer des produits de qualité.
+                        </p>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="about.age">Age:</span>
+                                <span class="info-value" id="age-display">26 ans</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="about.location">Localisation:</span>
+                                <span class="info-value" data-personal="location">Roanne, France</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="about.email">Email:</span>
+                                <a href="#" class="protected-email" data-obf="em.ki@sarret.oel" data-personal="email">Afficher l’email</a>
+                                <noscript><span>leo.terras [at] ik.me</span></noscript>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="about.mobilityLabel">Mobilité:</span>
+                                <span class="info-value" data-i18n="about.mobilityValue">Titulaire du permis B</span>
+                            </div>
+                        </div>
+                        <a href="assets/metadata/cv.pdf" class="btn primary" download data-personal="cv">
+                            <i class="fas fa-download"></i>
+                            <span data-i18n="about.download">Télécharger mon CV</span>
+                        </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="experience.title">Expérience professionnelle</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="experience.job1.date">2020 - Présent</span>
+                            <h3 data-i18n="experience.job1.title">Lead Developer Full Stack</h3>
+                            <h4 data-i18n="experience.job1.company">Tech Innovation Corp</h4>
+                            <ul class="mission-list" data-job="job1"></ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="experience.job2.date">2018 - 2020</span>
+                            <h3 data-i18n="experience.job2.title">Développeur Full Stack</h3>
+                            <h4 data-i18n="experience.job2.company">Digital Solutions Inc</h4>
+                            <ul class="mission-list" data-job="job2"></ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="experience.job3.date">2016 - 2018</span>
+                            <h3 data-i18n="experience.job3.title">Développeur Junior</h3>
+                            <h4 data-i18n="experience.job3.company">WebStart Agency</h4>
+                            <ul class="mission-list" data-job="job3"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section section-grey">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="education.title">Formation</h2>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card" data-start="2021-01" data-end="2023-01">
+                        <div class="card-header">
+                            <div class="card-icon">🎓</div>
+                            <span class="card-date" data-i18n="education.degree1.date">2014 - 2016</span>
+                        </div>
+                        <h3 data-i18n="education.degree1.title">Master en Informatique</h3>
+                        <h4 data-i18n="education.degree1.school">Université de Technologie</h4>
+                        <p data-i18n="education.degree1.description">
+                            Spécialisation en développement web et architecture logicielle
+                        </p>
+                    </div>
+
+                    <div class="education-card" data-start="2020-01" data-end="2021-01">
+                        <div class="card-header">
+                            <div class="card-icon">🎓</div>
+                            <span class="card-date" data-i18n="education.degree2.date">2011 - 2014</span>
+                        </div>
+                        <h3 data-i18n="education.degree2.title">Licence en Informatique</h3>
+                        <h4 data-i18n="education.degree2.school">Université des Sciences</h4>
+                        <p data-i18n="education.degree2.description">
+                            Formation généraliste en informatique et programmation
+                        </p>
+                    </div>
+
+                    <div class="education-card" data-start="2018-01" data-end="2020-01">
+                        <div class="card-header">
+                            <div class="card-icon">🎓</div>
+                            <span class="card-date" data-i18n="education.degree3.date">2018 - 2020</span>
+                        </div>
+                        <h3 data-i18n="education.degree3.title">Diplôme Universitaire de Technologie - Réseaux et
+                            Télécommunications</h3>
+                        <h4 data-i18n="education.degree3.school">Institut Informatique</h4>
+                        <p data-i18n="education.degree3.description">
+                            Bases solides en algorithmique, programmation et systèmes d'information
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="skills.title">Compétences</h2>
+                </div>
+
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3 data-i18n="skills.frontend.title">Front-end</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Angular</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>TypeScript</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3 data-i18n="skills.backend.title">Back-end</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Java</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Spring Boot</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>MariaDB</span>
+                                    <span>82%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" style="width: 82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3 data-i18n="skills.tools.title">Outils & Autres</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">BiomeJs</span>
+                            <span class="skill-tag">Gerrit</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Gitlab</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">JPA</span>
+                            <span class="skill-tag">JUnit</span>
+                            <span class="skill-tag">OpenAPI</span>
+                            <span class="skill-tag">REST API</span>
+                            <span class="skill-tag">Shadcn</span>
+                            <span class="skill-tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-grey">
+            <div class="section-container">
+                <h2><i class="fas fa-envelope" aria-hidden="true"></i> <span data-i18n="contact.title">Contact</span></h2>
+                <h3 data-i18n="contact.subtitle" style="margin-top:8px;">Travaillons ensemble</h3>
+                <p data-i18n="contact.intro" class="lead">
+                    Vous avez un projet en tête ? N'hésitez pas à me contacter. Je serai ravi d'échanger avec vous.
+                </p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">✉</div>
+                        <div class="contact-text">
+                            <h4 data-i18n="contact.email.title">Email</h4>
+                            <a href="#" class="protected-email" data-obf="em.ki@sarret.oel" data-personal="email">Afficher l’email</a>
+                            <noscript><span>leo.terras [at] ik.me</span></noscript>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">📍</div>
+                        <div class="contact-text">
+                            <h4 data-i18n="contact.location.title">Localisation</h4>
+                            <p data-personal="location">Roanne, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>© <span id="year"></span> Léo TERRAS</p>
+                <p><span data-i18n="footer.rights">Tous droits réservés.</span></p>
+                <div class="sidebar__socials">
+                    <a href="https://github.com/muano231" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://gitlab.com/muano231" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+                    <a href="https://www.linkedin.com/in/leo-terras/" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</div>
+
+<script type="module" src="script.js" defer></script>
+</body>
+</html>
